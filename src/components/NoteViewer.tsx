@@ -8,7 +8,7 @@ export class NoteViewer extends Component<{note: string}> {
     render(): ReactNode {
         return(
             <>
-                <Avatar sx={{ bgcolor: noteViewerBgColor }}>{this.props.note}</Avatar>
+                <Avatar sx={{ bgcolor: noteViewerBgColor, width: 75, height: 75, fontSize: 40 }}>{this.props.note}</Avatar>
             </>
         )
     }
